@@ -12,16 +12,33 @@
   align-items: center;
 }
 
+.navbar-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .logo {
   color: $white;
   font-size: 24px;
   text-decoration: none;
+  font-family: $poppins;
+  position: relative;
+  &:before {
+    content: "";
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+    border: 2px solid white;
+  }
 }
 
 .list {
   display: flex;
-  margin: 0;
   padding: 0;
+  margin: 0 0 0 150px;
 }
 
 .list-item {
@@ -36,6 +53,7 @@ a {
   display: block;
   font-size: 16px;
   text-decoration: none;
+  font-family: $poppins;
 }
 
 .cta {
@@ -46,4 +64,5 @@ a {
   display: inline-block;
   text-decoration: none;
   background-color: $white;
+  font-family: $poppins;
 }
