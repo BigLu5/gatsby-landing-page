@@ -10,7 +10,9 @@ const IntroBlock = () => {
           <span>Digital marketing</span> services for your{" "}
           <span>online business</span>
         </h1>
-        <a href="/">Get in touch</a>
+        <a className={styles.cta} href="/">
+          Get in touch
+        </a>
       </Container>
     </div>
   );
