@@ -2,6 +2,7 @@ import * as React from "react";
 import Navbar from "../components/navbar";
 import IntroBlock from "../components/introBlock";
 import FeaturedImage from "../components/featuredImage";
+import Footer from "../components/footer";
 import "../sass/basics.scss";
 
 const IndexPage = () => {
@@ -10,6 +11,7 @@ const IndexPage = () => {
       <Navbar />
       <IntroBlock />
       <FeaturedImage />
+      <Footer />
     </>
   );
 };
