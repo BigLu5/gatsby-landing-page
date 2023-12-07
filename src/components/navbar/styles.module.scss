@@ -1,3 +1,49 @@
+@import "../../sass/variables.scss";
+
 .navbar {
-  background: red;
+  padding: 50px 0;
+  background-color: $blue;
+}
+
+.navbar-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: $white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  padding: 10px;
+  color: $white;
+  display: block;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.cta {
+  color: $blue;
+  font-size: 18px;
+  padding: 13px 25px;
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: $white;
 }

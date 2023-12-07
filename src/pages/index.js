@@ -4,13 +4,7 @@ import Container from "../components/container";
 import "../sass/basics.scss";
 
 const IndexPage = () => {
-  return (
-    <>
-      <Container>
-        <Navbar />
-      </Container>
-    </>
-  );
+  return <Navbar />;
 };
 
 export default IndexPage;
