@@ -1,7 +1,9 @@
 import * as React from "react";
+import Navbar from "../components/navbar";
+import "../sass/basics.scss";
 
 const IndexPage = () => {
-  return <h1>Hello world</h1>;
+  return <Navbar />;
 };
 
 export default IndexPage;
