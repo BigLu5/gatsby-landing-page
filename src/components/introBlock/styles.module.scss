@@ -1,0 +1,18 @@
+@import "../../sass/variables.scss";
+
+.intro-block {
+  padding: 100px 0;
+  text-align: center;
+  background-color: $blue;
+}
+
+.intro-block-title {
+  color: $white;
+  font-family: $poppins;
+  font-size: 46px;
+  font-weight: 500;
+
+  span {
+    font-weight: 900;
+  }
+}
