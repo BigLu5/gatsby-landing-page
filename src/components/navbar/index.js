@@ -11,6 +11,7 @@ const Navbar = () => {
             <a className={styles.logo} href="#">
               Zap Marketing
             </a>
+
             <ul className={styles.list}>
               <li className={styles.listItem}>
                 <a href="#">About</a>
