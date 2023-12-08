@@ -48,6 +48,36 @@
     padding: min(30vh, 10rem) 2em;
     background: hsl(0, 0%, 100%, 0.2);
     backdrop-filter: blur(1rem);
+    display: none;
+  }
+}
+
+.menuOpen {
+  display: flex !important; // override display: none when the menu is open
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  @media (max-width: 927px) {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+
+    .bar {
+      width: 100%;
+      aspect-ratio: 1;
+      height: 4px;
+      background-color: white;
+      margin: 6px 0;
+      transition: 0.4;
+    }
   }
 }
 
@@ -75,4 +105,7 @@ a {
   text-decoration: none;
   background-color: $white;
   font-family: $poppins;
+  @media (max-width: 927px) {
+    display: none;
+  }
 }
