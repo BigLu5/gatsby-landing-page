@@ -17,13 +17,6 @@ const Navbar = () => {
             <a className={styles.logo} href="#">
               Zap Marketing
             </a>
-          </div>
-          <div className={styles.navbarRight}>
-            <div className={styles.hamburger} onClick={toggleMenu}>
-              <div className={styles.bar}></div>
-              <div className={styles.bar}></div>
-              <div className={styles.bar}></div>
-            </div>
             <ul
               className={`${styles.list} ${isMenuOpen ? styles.menuOpen : ""}`}
             >
@@ -37,6 +30,13 @@ const Navbar = () => {
                 <a href="#">Work</a>
               </li>
             </ul>
+          </div>
+          <div className={styles.navbarRight}>
+            <div className={styles.hamburger} onClick={toggleMenu}>
+              <div className={styles.bar}></div>
+              <div className={styles.bar}></div>
+              <div className={styles.bar}></div>
+            </div>
           </div>
           <a className={styles.cta} href="#">
             Contact
