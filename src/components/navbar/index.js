@@ -32,7 +32,11 @@ const Navbar = () => {
             </ul>
           </div>
           <div className={styles.navbarRight}>
-            <div className={styles.hamburger} onClick={toggleMenu}>
+            <div
+              type="button"
+              className={styles.hamburger}
+              onClick={toggleMenu}
+            >
               <div className={styles.bar}></div>
               <div className={styles.bar}></div>
               <div className={styles.bar}></div>
